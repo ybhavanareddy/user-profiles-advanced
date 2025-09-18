@@ -47,10 +47,11 @@ src/
 
 
 ## Setup and Installation
-1. **Clone the Repository:
+2.Clone the Repository:
    ```
    git clone https://github.com/your-username/simplyfi-user-profiles-advanced.git
    cd simplyfi-user-profiles-advanced
+```
 
 2.Install Dependencies:
 ```
