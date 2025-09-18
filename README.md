@@ -31,11 +31,17 @@ The User Profiles Advanced App is a single-page React application that fetches a
 
 src/
 ├── components/
+
 │   ├── UserCard.js
+
 │   ├── EditModal.js
+
 │   └── Loader.js
+
 ├── App.js
+
 ├── index.js
+
 └── App.css
 
 
