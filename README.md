@@ -1,7 +1,8 @@
-# User Profiles Advanced
+# User Profiles Advanced App
+
 
 ## Overview
-This is the **Advanced** version of the Simplyfi Softech ReactJS Frontend Developer Assignment. It is a single-page React application that fetches user data from a public API, displays it as responsive profile cards using Ant Design, and includes interactive features like liking, deleting, and editing user profiles. The application is designed to work seamlessly on mobile, tablet, and desktop screens, closely replicating the demo at [react-advanced-assignment.psamd.now.sh](https://react-advanced-assignment.psamd.now.sh/).
+The User Profiles Advanced App is a single-page React application that fetches and displays user data as responsive profile cards. Built with Ant Design and React, it features interactive functionality such as liking, editing, and deleting user profiles. The app is optimized for mobile, tablet, and desktop screens, ensuring a smooth and consistent user experience.
 
 ## Features
 - **User Data Fetching**: Retrieves 10 user profiles from the JSONPlaceholder API (`https://jsonplaceholder.typicode.com/users`).
@@ -26,13 +27,25 @@ This is the **Advanced** version of the Simplyfi Softech ReactJS Frontend Develo
   - User data: `https://jsonplaceholder.typicode.com/users`
   - Avatars: `https://api.dicebear.com/9.x/avataaars/svg`
 
+## Project Structure
+
+src/
+├── components/
+│   ├── UserCard.js
+│   ├── EditModal.js
+│   └── Loader.js
+├── App.js
+├── index.js
+└── App.css
+
+
 ## Setup and Installation
-1. **Clone the Repository**:
+1. **Clone the Repository:
    ```
    git clone https://github.com/your-username/simplyfi-user-profiles-advanced.git
    cd simplyfi-user-profiles-advanced
-```
-2.**Install Dependencies**:
+
+2.Install Dependencies:
 ```
     npm install
 ```
@@ -46,4 +59,14 @@ The app will run at http://localhost:3000 in your default browser.
 
 The application is deployed on Vercel for live testing. Access it at:
 
-Live URL:
+Live URL: https://user-profiles-advanced-mauve.vercel.app/
+
+## License 
+This project is licensed under the MIT License. 
+
+## Author  
+**Bhavana Yatham**  
+ 
+- LinkedIn: http://www.linkedin.com/in/yatham-bhavana  
+- GitHub: https://github.com/ybhavanareddy
+
