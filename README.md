@@ -63,7 +63,7 @@ src/
 ```
 The app will run at http://localhost:3000 in your default browser.
 
-2.**Deployment**
+## Deployment
 
 The application is deployed on Vercel for live testing. Access it at:
 
