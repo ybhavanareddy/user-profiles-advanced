@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# User Profiles Advanced
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This is the **Advanced** version of the Simplyfi Softech ReactJS Frontend Developer Assignment. It is a single-page React application that fetches user data from a public API, displays it as responsive profile cards using Ant Design, and includes interactive features like liking, deleting, and editing user profiles. The application is designed to work seamlessly on mobile, tablet, and desktop screens, closely replicating the demo at [react-advanced-assignment.psamd.now.sh](https://react-advanced-assignment.psamd.now.sh/).
 
-## Available Scripts
+## Features
+- **User Data Fetching**: Retrieves 10 user profiles from the JSONPlaceholder API (`https://jsonplaceholder.typicode.com/users`).
+- **Dynamic Avatars**: Generates unique avatars for each user using the DiceBear Avatars API (`https://api.dicebear.com/9.x/avataaars/svg?seed={username}&mood=happy`).
+- **Responsive Layout**: Uses Ant Design's `<Row>` and `<Col>` grid system to display 1–4 columns based on screen size (mobile: 1, tablet: 2, desktop: 3–4).
+- **Loading Indicator**: Displays an Ant Design `<Spin>` component while fetching data.
+- **Interactive Features**:
+  - **Like**: Toggle a heart icon (`<HeartOutlined>`/`<HeartFilled>`) to mark a user as liked or unliked.
+  - **Delete**: Remove a user from the list using a trash can icon (`<DeleteOutlined>`).
+  - **Edit**: Open an Ant Design `<Modal>` with a `<Form>` to edit user details (name, email, phone, address, website, company), with changes reflected in the UI.
+- **State Management**: Lifts state up to the parent `App.js` component to manage user data, likes, and edits across components.
+- **Modern UI**: Uses Ant Design components (`<Card>`, `<Button>`, `<Modal>`, `<Form>`, `<Spin>`, `<Icon>`) for a polished, professional look.
 
-In the project directory, you can run:
+## Tech Stack
+- **React**: Frontend framework for building the single-page application.
+- **Ant Design**: UI library for responsive grid, cards, buttons, modals, forms, and icons.
+- **JavaScript (ES6+)**: For modern syntax and API fetching.
+- **Node.js & npm**: For project setup and package management.
+- **Create React App**: Boilerplate for initializing the React project.
+- **CSS**: Minimal custom styles for card hover effects and layout tweaks.
+- **APIs**:
+  - User data: `https://jsonplaceholder.typicode.com/users`
+  - Avatars: `https://api.dicebear.com/9.x/avataaars/svg`
 
-### `npm start`
+## Setup and Installation
+1. **Clone the Repository**:
+   ```
+   git clone https://github.com/your-username/simplyfi-user-profiles-advanced.git
+   cd simplyfi-user-profiles-advanced
+```
+2.**Install Dependencies**:
+```
+    npm install
+```
+3.**Run the Application**:
+```
+    npm start
+```
+The app will run at http://localhost:3000 in your default browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2.**Deployment**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The application is deployed on Vercel for live testing. Access it at:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Live URL:
