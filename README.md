@@ -29,21 +29,19 @@ The User Profiles Advanced App is a single-page React application that fetches a
 
 ## Project Structure
 
-src/
-
-├── components/
-
-│   ├── UserCard.js
-
-│   ├── EditModal.js
-
-│   └── Loader.js
-
-├── App.js
-
-├── index.js
-
-└── App.css
+user-profiles-advanced/
+├── public/                
+│   ├── index.html         
+├── src/                      
+│   │──UserCard.js   
+│   ├── App.js            
+│   ├── App.css            
+│   ├── index.js          
+│   └── index.css                      
+├── .gitignore            
+├── package.json           
+├── README.md             
+└── yarn.lock / package-lock.json
 
 
 ## Setup and Installation
