@@ -47,8 +47,8 @@ user-profiles-advanced/
 ## Setup and Installation
 2.Clone the Repository:
    ```
-   git clone https://github.com/your-username/simplyfi-user-profiles-advanced.git
-   cd simplyfi-user-profiles-advanced
+   git clone https://github.com/ybhavanareddy/user-profiles-advanced
+   cd user-profiles-advanced
 ```
 
 2.Install Dependencies:
